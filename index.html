@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Application</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="telephone-container">
+        <h1>Telephone Application</h1>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" placeholder="Enter phone number">
+
+        <button onclick="addPhoneNumber()">Add Number</button>
+        <button onclick="removePhoneNumber()">Remove Number</button>
+        <button onclick="deleteLastPhoneNumber()">Delete Last Number</button>
+        <button onclick="dialPhoneNumber()">Dial Number</button>
+
+        <div id="log"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
